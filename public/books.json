@@ -1,0 +1,329 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "publishedYear": 1925,
+            "isbn10": "0141182636",
+            "isbn13": "978-0141182636",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A classic novel set in the Roaring Twenties...",
+            "critics": [
+              {
+                "name": "New York Times",
+                "quote": "A literary masterpiece...",
+                "rating": 5
+              },
+              {
+                "name": "The Guardian",
+                "quote": "Fitzgerald's best work...",
+                "rating": 4.5
+              }
+            ],
+            "genre": "Fiction",
+            "rented": false,
+            "rentedDaysLeft": 0
+          },
+          {
+            "id": 2,
+            "name": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "publishedYear": 1960,
+            "isbn10": "0061120081",
+            "isbn13": "978-0061120084",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A powerful novel addressing racial injustice...",
+            "critics": [
+              {
+                "name": "The New Yorker",
+                "quote": "A timeless classic...",
+                "rating": 4.8
+              },
+              {
+                "name": "Washington Post",
+                "quote": "A must-read for all ages...",
+                "rating": 4.7
+              }
+            ],
+            "genre": "Drama",
+            "rented": true,
+            "rentedDaysLeft": 1
+          },
+          {
+            "id": 3,
+            "name": "1984",
+            "author": "George Orwell",
+            "publishedYear": 1949,
+            "isbn10": "0451524934",
+            "isbn13": "978-0451524935",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A dystopian novel exploring totalitarianism...",
+            "critics": [
+              {
+                "name": "The Guardian",
+                "quote": "Orwell's masterpiece...",
+                "rating": 4.6
+              },
+              {
+                "name": "The Economist",
+                "quote": "A chilling portrayal of a future society...",
+                "rating": 4.5
+              }
+            ],
+            "genre": "Science Fiction",
+            "rented": true,
+            "rentedDaysLeft": 1
+          },
+          {
+            "id": 4,
+            "name": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "publishedYear": 1937,
+            "isbn10": "0261102214",
+            "isbn13": "978-0261102217",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A fantasy adventure of a hobbit's journey...",
+            "critics": [
+              {
+                "name": "The Times",
+                "quote": "A classic of children's literature...",
+                "rating": 4.9
+              },
+              {
+                "name": "The Telegraph",
+                "quote": "Tolkien's enchanting tale...",
+                "rating": 4.8
+              }
+            ],
+            "genre": "Fantasy",
+            "rented": false,
+            "rentedDaysLeft": 0
+          },
+          {
+            "id": 5,
+            "name": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "publishedYear": 1813,
+            "isbn10": "0141439513",
+            "isbn13": "978-0141439518",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A romantic classic by Jane Austen...",
+            "critics": [
+              {
+                "name": "The New York Review of Books",
+                "quote": "A timeless love story...",
+                "rating": 4.7
+              },
+              {
+                "name": "The Guardian",
+                "quote": "A masterpiece of English literature...",
+                "rating": 4.6
+              }
+            ],
+            "genre": "Romance",
+            "rented": false,
+            "rentedDaysLeft": 0
+          },
+          {
+            "id": 6,
+            "name": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "publishedYear": 1951,
+            "isbn10": "0316769177",
+            "isbn13": "978-0316769174",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A coming-of-age novel by J.D. Salinger...",
+            "critics": [
+              {
+                "name": "The New York Times",
+                "quote": "A literary classic...",
+                "rating": 4.5
+              },
+              {
+                "name": "Time Magazine",
+                "quote": "A must-read for young adults...",
+                "rating": 4.4
+              }
+            ],
+            "genre": "Fiction",
+            "rented": true,
+            "rentedDaysLeft": 1
+          },
+          {
+            "id": 7,
+            "name": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "publishedYear": 1954,
+            "isbn10": "0618640150",
+            "isbn13": "978-0618640157",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "An epic fantasy trilogy by J.R.R. Tolkien...",
+            "critics": [
+              {
+                "name": "The Guardian",
+                "quote": "A magnum opus of fantasy...",
+                "rating": 4.9
+              },
+              {
+                "name": "The Telegraph",
+                "quote": "Tolkien's masterpiece...",
+                "rating": 4.8
+              }
+            ],
+            "genre": "Fantasy",
+            "rented": false,
+            "rentedDaysLeft": 0
+          },
+          {
+            "id": 8,
+            "name": "The Da Vinci Code",
+            "author": "Dan Brown",
+            "publishedYear": 2003,
+            "isbn10": "1400079179",
+            "isbn13": "978-1400079179",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A mystery thriller by Dan Brown...",
+            "critics": [
+              {
+                "name": "The Washington Post",
+                "quote": "A gripping and thought-provoking novel...",
+                "rating": 4.7
+              },
+              {
+                "name": "The New York Times",
+                "quote": "A literary phenomenon...",
+                "rating": 4.6
+              }
+            ],
+            "genre": "Mystery",
+            "rented": false,
+            "rentedDaysLeft": 0
+          },
+          {
+            "id": 9,
+            "name": "Harry Potter and the Sorcerer's Stone",
+            "author": "J.K. Rowling",
+            "publishedYear": 1997,
+            "isbn10": "0439554934",
+            "isbn13": "978-0439554930",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A magical adventure by J.K. Rowling...",
+            "critics": [
+              {
+                "name": "The Guardian",
+                "quote": "A spellbinding start to the series...",
+                "rating": 4.8
+              },
+              {
+                "name": "Entertainment Weekly",
+                "quote": "A must-read for young readers...",
+                "rating": 4.7
+              }
+            ],
+            "genre": "Fantasy",
+            "rented": true,
+            "rentedDaysLeft": 1
+          },
+          {
+            "id": 10,
+            "name": "Brave New World",
+            "author": "Aldous Huxley",
+            "publishedYear": 1932,
+            "isbn10": "0060850523",
+            "isbn13": "978-0060850524",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A dystopian classic by Aldous Huxley...",
+            "critics": [
+              {
+                "name": "The New York Times",
+                "quote": "A thought-provoking and chilling vision...",
+                "rating": 4.6
+              },
+              {
+                "name": "The Guardian",
+                "quote": "Huxley's prophetic masterpiece...",
+                "rating": 4.5
+              }
+            ],
+            "genre": "Science Fiction",
+            "rented": true,
+            "rentedDaysLeft": 1
+          },
+          {
+            "id": 11,
+            "name": "The Shining",
+            "author": "Stephen King",
+            "publishedYear": 1977,
+            "isbn10": "0307743659",
+            "isbn13": "978-0307743657",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "A chilling horror novel by Stephen King...",
+            "critics": [
+              {
+                "name": "The Washington Post",
+                "quote": "A modern classic of horror...",
+                "rating": 4.7
+              },
+              {
+                "name": "The New Yorker",
+                "quote": "King's most iconic work...",
+                "rating": 4.6
+              }
+            ],
+            "genre": "Horror",
+            "rented": false,
+            "rentedDaysLeft": 0
+          },
+          {
+            "id": 12,
+            "name": "The Alchemist",
+            "author": "Paulo Coelho",
+            "publishedYear": 1988,
+            "isbn10": "0061122416",
+            "isbn13": "978-0061122415",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "An inspirational novel by Paulo Coelho...",
+            "critics": [
+              {
+                "name": "The New York Times",
+                "quote": "A philosophical journey...",
+                "rating": 4.6
+              },
+              {
+                "name": "The Guardian",
+                "quote": "Coelho's life-affirming work...",
+                "rating": 4.5
+              }
+            ],
+            "genre": "Fiction",
+            "rented": false,
+            "rentedDaysLeft": 0
+          },
+          {
+            "id": 13,
+            "name": "Moby-Dick",
+            "author": "Herman Melville",
+            "publishedYear": 1851,
+            "isbn10": "0553213113",
+            "isbn13": "978-0553213119",
+            "image": "https://picsum.photos/400/200",
+            "synopsis": "An epic sea adventure by Herman Melville...",
+            "critics": [
+              {
+                "name": "The Guardian",
+                "quote": "A literary treasure of the sea...",
+                "rating": 4.7
+              },
+              {
+                "name": "The Telegraph",
+                "quote": "Melville's masterpiece of maritime literature...",
+                "rating": 4.6
+              }
+            ],
+            "genre": "Adventure",
+            "rented": true,
+            "rentedDaysLeft": 1
+        }
+    ]
+}
