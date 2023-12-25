@@ -8,9 +8,9 @@ interface LayoutProps {
 const Books = ({books}: LayoutProps) => {
 	return (
 		<div className="flex flex-wrap justify-center">
-				{books.map((book) => (
-						<BookCard book={book} key={book.id}/>
-				))}
+			{books.map((book) => (
+					<BookCard book={book} key={book.id}/>
+			))}
 		</div>
 	)
 }

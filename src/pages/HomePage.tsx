@@ -11,21 +11,17 @@ const HomePage = () => {
 				<h1>Welcome to Hot Chili Library</h1>
 			</header>
 
-			<div className="flex justify-center">
-				<ul>
-					<li>
-						<Link to="/">Home</Link>
-					</li>
-					<li>
-						<Link to="/books">Books</Link>
-					</li>
-					<li>
-						<Link to="/contact">Contact</Link>
-					</li>
-				</ul>
-
+			<div className="home__content">
+				<div className="home__link-card">
+					<Link className="home__link-card__link" to="/">Home</Link>
+				</div>
+				<div className="home__link-card home__link-card--danger">
+					<Link className="home__link-card__link" to="/books">Books</Link>
+				</div>
+				<div className="home__link-card">
+					<Link className="home__link-card__link" to="/contact">Contact</Link>
+				</div>
 			</div>
-			
 		</div>
 	);
 };

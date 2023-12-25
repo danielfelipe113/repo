@@ -5,3 +5,43 @@
 	padding: 20px;
 	text-align: center;
 }
+
+.home__content {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 1rem;
+}
+
+.home__link-card {
+	
+	border: 1px solid #252525;
+	border-top-left-radius: 15px 10px;
+	border-bottom-right-radius: 12px 13px;
+	transition: all 0.1s ease-in-out;
+}
+
+.home__link-card__link {
+	padding: 3rem;
+	display: flex;
+} 
+
+.home__link-card:hover {
+	background-color: rgb(226, 90, 239);
+	color: #f8f8f8;
+	border-top-right-radius: 15px 10px;
+	border-bottom-left-radius: 12px 13px;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.home__link-card--danger {
+	background-color: rgb(226, 90, 239);
+	color: #f8f8f8
+}
+
+.home__link-card--danger:hover {
+	background-color: unset;
+	color: unset;
+}
+
+
